@@ -16,7 +16,7 @@ App (OpenAI format) → localhost:3456 → Claude Code CLI → Anthropic (subscr
 - **Running version**: npm `claude-max-api-proxy@1.0.0` (original author `atalovesyou`, repo deleted) with manual patch for proxy env vars
 - **Upstream**: [GodYeh/claude-max-api-proxy](https://github.com/GodYeh/claude-max-api-proxy) v1.3.0 (actively maintained, openclaw integration)
 - **Fork**: [wzh4464/claude-max-api-proxy](https://github.com/wzh4464/claude-max-api-proxy) (forked from GodYeh)
-- **Local clone**: `/home/jie/claude-max-api-proxy/` (GodYeh version source)
+- **Local clone**: `~/claude-max-api-proxy/` (GodYeh version source)
 - **Installed at**: `$(npm root -g)/claude-max-api-proxy/` (npm version with patch)
 
 ### Version differences
@@ -38,7 +38,7 @@ If needed in the future:
 ```bash
 npm uninstall -g claude-max-api-proxy
 mkdir -p ~/.openclaw/workspace
-cd /home/jie/claude-max-api-proxy && npm install -g .
+cd ~/claude-max-api-proxy && npm install -g .
 ```
 
 ## Operations
@@ -224,4 +224,4 @@ After patching, restart the proxy service. **This patch has been applied to the 
 - Claude Code CLI authenticated (`claude --version`)
 - Active Claude Max or Pro subscription
 - Install (npm): `npm install -g claude-max-api-proxy` (v1.0.0, needs patch)
-- Install (GodYeh): `cd /home/jie/claude-max-api-proxy && npm install -g .`
+- Install (GodYeh): `cd ~/claude-max-api-proxy && npm install -g .`
